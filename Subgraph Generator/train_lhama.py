@@ -256,7 +256,7 @@ trainer = SFTTrainer(
 
     args=training_args,
 
-    processing_class=tokenizer,
+    processing_class=tokenizer
 
 )
 
