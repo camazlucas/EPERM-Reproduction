@@ -242,7 +242,7 @@ training_args = TrainingArguments(
 
     load_best_model_at_end=True,
 
-    fp16=True,
+    fp16=False,
 
     report_to="none"
 )
