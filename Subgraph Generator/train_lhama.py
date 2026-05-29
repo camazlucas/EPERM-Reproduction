@@ -236,7 +236,7 @@ training_args = TrainingArguments(
 
     logging_steps=20,
 
-    evaluation_strategy="epoch",
+    eval_strategy="epoch",
 
     save_strategy="epoch",
 
