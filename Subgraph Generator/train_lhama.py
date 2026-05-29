@@ -24,10 +24,10 @@ from trl import SFTTrainer
 
 MODEL_NAME = "meta-llama/Llama-2-7b-chat-hf"
 
-TRAIN_FILE = "train.json"
-VALID_FILE = "valid.json"
+TRAIN_FILE = "../data/WebQSP/train.json"
+VALID_FILE = "../data/WebQSP/valid.json"
 
-OUTPUT_DIR = "./outputs/retriever_llama2_lora"
+OUTPUT_DIR = "../Subgraph Generator/outputs/retriever_llama2_lora"
 
 MAX_SEQ_LENGTH = 2048
 
