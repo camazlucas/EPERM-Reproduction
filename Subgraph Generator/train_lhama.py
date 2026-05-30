@@ -33,7 +33,7 @@ MAX_SEQ_LENGTH = 2048
 
 NUM_EPOCHS = 3
 
-LEARNING_RATE = 2e-4
+LEARNING_RATE = 1e-4
 
 BATCH_SIZE = 1
 
@@ -244,7 +244,9 @@ training_args = TrainingArguments(
 
     fp16=False,
 
-    report_to="none"
+    report_to="none",
+
+    max_grad_norm = 1.0
 )
 
 trainer = SFTTrainer(
